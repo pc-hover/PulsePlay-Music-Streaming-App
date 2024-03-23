@@ -24,7 +24,7 @@ app.use(cors());
 //which db to connect to  +  connection options
 mongoose
   .connect(
-    "mongodb+srv://Priyanshu01:" +
+    "mongodb+srv://priyanshu:" +
     process.env.MONGODB_PASSWORD +
     "@cluster0.evqkhta.mongodb.net/?retryWrites=true&w=majority",
     {
